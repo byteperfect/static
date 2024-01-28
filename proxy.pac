@@ -18,7 +18,8 @@ function FindProxyForURL(url, host) {
         'nvidia.com',
         'googleapis.com',
         'oaistatic.com',
-        'tmetric.com'
+        'tmetric.com',
+        'patreon.com'
     ]
 
     for (i = 0; i < domains.length; i++) {
