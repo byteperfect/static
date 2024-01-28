@@ -19,7 +19,8 @@ function FindProxyForURL(url, host) {
         'googleapis.com',
         'oaistatic.com',
         'tmetric.com',
-        'patreon.com'
+        'patreon.com',
+        'liqpay.ua'
     ]
 
     for (i = 0; i < domains.length; i++) {
