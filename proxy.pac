@@ -22,7 +22,8 @@ function FindProxyForURL(url, host) {
         'patreon.com',
         'liqpay.ua',
         'oaiusercontent.com',
-        'featuregates.org'
+        'featuregates.org',
+        'leonardo.ai'
     ]
 
     for (i = 0; i < domains.length; i++) {
