@@ -24,7 +24,7 @@ function FindProxyForURL(url, host) {
     ]
 
     for (i = 0; i < domains.length; i++) {
-        if (dnsDomainIs(host, domains[i])) {
+        if (dnsDomainIs(host, domains[i]) || dnsDomainIs(host, '*.'+domains[i])) {
             return 'SOCKS 127.0.0.1:2080; PROXY 127.0.0.1:2081; DIRECT';
         }
     }
