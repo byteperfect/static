@@ -23,7 +23,8 @@ function FindProxyForURL(url, host) {
         'liqpay.ua',
         'oaiusercontent.com',
         'featuregates.org',
-        'leonardo.ai'
+        'leonardo.ai',
+        'canva.com'
     ]
 
     for (i = 0; i < domains.length; i++) {
