@@ -25,7 +25,10 @@ function FindProxyForURL(url, host) {
         'featuregates.org',
         'leonardo.ai',
         'canva.com',
-        'gemini.google.com'
+        'gemini.google.com',
+        'amazon.com',
+        'microsoft.com',
+        'azure.com'
     ]
 
     for (i = 0; i < domains.length; i++) {
