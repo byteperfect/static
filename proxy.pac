@@ -28,7 +28,8 @@ function FindProxyForURL(url, host) {
         'gemini.google.com',
         'amazon.com',
         'microsoft.com',
-        'azure.com'
+        'azure.com',
+        'coze.com'
     ]
 
     for (i = 0; i < domains.length; i++) {
