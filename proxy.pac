@@ -2,6 +2,7 @@ function FindProxyForURL(url, host) {
     const domains = [
         'vipchanger.com',
         'google.com',
+        'google.dev',
         '2ip.ru',
         'miro.com',
         'medium.com',
