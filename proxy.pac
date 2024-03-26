@@ -30,7 +30,8 @@ function FindProxyForURL(url, host) {
         'amazon.com',
         'microsoft.com',
         'azure.com',
-        'coze.com'
+        'coze.com',
+        'toptal.com'
     ]
 
     for (i = 0; i < domains.length; i++) {
