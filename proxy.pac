@@ -31,7 +31,8 @@ function FindProxyForURL(url, host) {
         'microsoft.com',
         'azure.com',
         'coze.com',
-        'toptal.com'
+        'toptal.com',
+        'wordpress.org'
     ]
 
     for (i = 0; i < domains.length; i++) {
