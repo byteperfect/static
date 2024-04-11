@@ -15,6 +15,7 @@ function FindProxyForURL(url, host) {
         'tinypng.com',
         'openai.com',
         'github.com',
+        'githubusercontent.com',
         'flathub.org',
         'nvidia.com',
         'googleapis.com',
