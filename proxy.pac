@@ -42,5 +42,11 @@ function FindProxyForURL(url, host) {
         }
     }
 
+    if (
+        isInNet(host, '104.26.10.55', '255.248.0.0')
+    ) {
+        return 'SOCKS 127.0.0.1:2080; PROXY 127.0.0.1:2081; DIRECT';
+    }
+
     return 'DIRECT';
 }
