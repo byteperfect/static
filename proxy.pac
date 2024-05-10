@@ -33,7 +33,8 @@ function FindProxyForURL(url, host) {
         'azure.com',
         'coze.com',
         'toptal.com',
-        'wordpress.org'
+        'wordpress.org',
+        'testsam.at'
     ]
 
     for (i = 0; i < domains.length; i++) {
