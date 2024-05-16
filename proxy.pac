@@ -8,7 +8,6 @@ function FindProxyForURL(url, host) {
         'medium.com',
         'gitlab.com',
         'web.dev',
-        'devserver6.com',
         'oxygenbuilder.com',
         'rutracker.net',
         'breakdance.com',
